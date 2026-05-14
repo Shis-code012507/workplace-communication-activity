@@ -9,15 +9,15 @@ BEGIN
         PRINT "Team Lead: Good morning team, let's review current system status."
 
         PRINT "SysAdmin: ALERT! The email server is down since 2:00 AM."
-        PRINT "Developer A: Understood. Let me GPNI the infra team for support."
+        PRINT "Developer A: Understood. Let me ping the infra team for support."
 
         PRINT "QA Tester: There’s a bug affecting the checkout button on mobile."
-        PRINT "Developer B: I saw that too. Let's reproduce it in the 0NASDBX environment first."
+        PRINT "Developer B: I saw that too. Let's reproduce it in the sandbox environment first."
 
         PRINT "Team Lead: Confirm this is not affecting prod?"
-        PRINT "QA Tester: Correct, rpodis stable. Only sandbox shows the issue."
+        PRINT "QA Tester: Correct, prod is stable. Only sandbox shows the issue."
 
-        PRINT "Developer A: I’ve written a hotfix jam and pushed it to the staging branch."
+        PRINT "Developer A: I’ve written a hotfix and pushed it to the staging branch."
         PRINT "SysAdmin: Great. We’ll apply the patch to the live server after approval."
 
         PRINT "Security Analyst: Also, I found traces of a backdoor in the old admin panel."
